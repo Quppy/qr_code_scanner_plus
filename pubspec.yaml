@@ -9,11 +9,7 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  # js: ^0.6.3
-  web: ^1.0.0
   flutter:
-    sdk: flutter
-  flutter_web_plugins:
     sdk: flutter
 
 dev_dependencies:
@@ -27,12 +23,8 @@ flutter:
         pluginClass: FlutterQrPlusPlugin
       ios:
         pluginClass: FlutterQrPlusPlugin
-#      web:
-#        pluginClass: FlutterQrPlusPlugin
-#        fileName: flutter_qr_web.dart
 
 # This package supports all platforms listed below.
 platforms:
   android:
   ios:
-  web:
